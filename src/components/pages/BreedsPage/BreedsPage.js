@@ -125,7 +125,7 @@ export function BreedsPage(props){
 
   return (
     <React.Fragment>
-      <h2 className="text-white-3d mb-5 text-center">Select A Breed</h2>
+      <h2 className="text-white-3d my-5 text-center">Select A Breed</h2>
 
 
       <div className="mx-auto mb-3" style={{ maxWidth: 300 }}>
