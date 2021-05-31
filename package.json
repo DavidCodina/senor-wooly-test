@@ -2,9 +2,11 @@
   "name": "demo",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://davidcodina.github.io/senor-wooly-test/",
   "dependencies": {
     "axios": "^0.21.1",
     "bootstrap": "^5.0.0",
+    "gh-pages": "^3.2.0",
     "node-sass": "npm:sass@^1.32.12",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -14,7 +16,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
